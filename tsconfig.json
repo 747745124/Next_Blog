@@ -22,8 +22,13 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "lib/hooks.js", "components/Navbar.jsx", "pages/enter.js", "lib/hooks.js", "lib/firebase.js"  ],
+    "**/*.tsx",
+    "./lib/hooks.js",
+    "./components/Navbar.jsx",
+    "./pages/enter.js",
+    "./lib/hooks.js",
+    "./lib/firebase.js"
+  ],
   "exclude": [
     "node_modules"
   ]
