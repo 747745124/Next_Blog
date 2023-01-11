@@ -42,6 +42,8 @@ export function postToJson(doc) {
 
 export const auth = firebase.auth();
 export const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
-
+export const serverTimestamp = firebase.firestore.FieldValue.serverTimestamp;
 export const firestore = firebase.firestore();
 export const storage = firebase.storage();
+// This API tells us the uploading progress
+export const STATE_CHANGED = firebase.storage.TaskEvent.STATE_CHANGED;
