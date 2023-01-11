@@ -47,3 +47,4 @@ export const firestore = firebase.firestore();
 export const storage = firebase.storage();
 // This API tells us the uploading progress
 export const STATE_CHANGED = firebase.storage.TaskEvent.STATE_CHANGED;
+export const increment = firebase.firestore.FieldValue.increment;
