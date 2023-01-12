@@ -48,7 +48,7 @@ export default function ImageUploader({ }) {
             {uploading && <h3>{progress}%</h3>}
 
             {/* //Uploading feature temporaily disabled for future bug fixes */}
-            {/* {
+            {
                 !uploading && (
                     // Easier for styling
                     <>
@@ -57,7 +57,7 @@ export default function ImageUploader({ }) {
                             <input type="file" onChange={uploadFile} accept="image/x-png,image/png,image/gif,image/jpeg" />
                         </label>
                     </>)
-            } */}
+            }
 
             {downloadURL && <code className="upload-snippet">{`![alt](${downloadURL})`}</code>}
         </div>

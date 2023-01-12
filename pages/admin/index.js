@@ -79,13 +79,9 @@ function CreateNewPost() {
             placeholder="Enter your title"
             className={styles.input}
         />
-        <p>
+        {/* <p>
             <strong>Slug:</strong>{slug}
-        </p>
+        </p> */}
         <button type="submit" disabled={!isValid} className="btn-green">Create New Post</button>
     </form>)
-}
-
-function createPost() {
-
 }
